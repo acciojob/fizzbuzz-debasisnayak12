@@ -1,16 +1,15 @@
 //your JS code here. If required.
-function fizzBuzz() {
+let result = '';
 	for (let i = 1; i <= 20; i++){
 		if(i % 3 === 0 && i % 5 === 0){
-			alert("FizzBuzz");
+			result += "FizzBuzz\n";
 		}else if(i % 3 === 0){
-			alert("Fizz");
+			result += "Fizz\n";
 		}else if(i % 5 === 0){
-			alert("Buzz");
+			result += "Buzz\n";
 		}else{
-			alert(i);
+			result += i + "\n";
 		}
     }
-}
-fizzBuzz();
+alert(result);
 
